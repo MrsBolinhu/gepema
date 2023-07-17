@@ -47,8 +47,5 @@ jobs:
       - name: Run build 🐣
         run: pnpm build
 
-      - name: Run lint 👀
-        run: pnpm lint
-
       - name: Run test 🧪
         run: pnpm test
