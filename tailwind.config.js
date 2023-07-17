@@ -11,8 +11,7 @@ export default {
 		colors: {
 			blue: '#5158c0',
 			orange: '#F99746',
-			offWhite: '#f8f9fa',
-			
+			offWhite: '#f8f9fa'
 		},
 		fontFamily: {
 			sans: ['Inter', 'sans-serif']
