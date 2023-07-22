@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: ['./src/**/*.{html, js, svelte, ts}'],
+	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		screens: {
 			sm: '480px',
@@ -11,7 +11,11 @@ export default {
 		colors: {
 			blue: '#5158c0',
 			orange: '#F99746',
-			offWhite: '#f8f9fa'
+			offWhite: '#f8f9f5',
+			gray: '#e0dede',
+			lightGray: '#f5f5f5',
+			darkerGray: '#c4c4c4',
+			darkGray: '#18191A'
 		},
 		fontFamily: {
 			sans: ['Inter', 'sans-serif']

@@ -1,0 +1,69 @@
+[
+	{
+		"name": "Pesquisar e Escrever - Produções Da Licenciatura Em Matemática Da UFVJM - Campus Mucuri",
+		"description": "A presente coletânea traz, aos leitores, um conjunto de textos produzidos por estudantes no âmbito do curso de Licenciatura em Matemática da Universidade Federal dos Vales do Jequitinhonha e Mucuri - UFVJM, Campus do Mucuri. Trata-se de sínteses de pesquisas desenvolvidas para fins dos Trabalhos de Conclusão de Curso (TCC), sob a orientação dos coautores.",
+		"year": 2023,
+		"type": "book",
+		"publisher": "Editora Colab",
+		"downloadLink": "https://pt.scribd.com/document/658419769/Pesquisar-e-Escrever-Producoes-Da-Licenciatura-Em-Matematica-Da-UFVJM-Campus-Mucuri#",
+		"groupMembers": ["Niusarte Pinheiro", "Greyd Mattos", "Laís Couy", "Weversson Sellin"]
+	},
+	{
+		"name": "Educação Matemática: Diálogos Teóricos e Metodológicos",
+		"description": "Esta coletânea resulta dos cinco eventos promovidos pelo Grupo de estudos e Pesquisas em Educação Matemática – GEPEMA/UFVJM, em parceria com o Curso de Licenciatura em Matemática e colaboradores. A fim de manter viva a memória do evento, foram convidados os professores colaboradores que participaram dessa história, para contribuir com seus trabalhos de pesquisa.",
+		"year": 2020,
+		"type": "book",
+		"publisher": "Editora Cajuína",
+		"downloadLink": "https://play.google.com/store/books/details?id=LRj-DwAAQBAJ&rdid=book-LRj-DwAAQBAJ&rdot=1&source=gbs_atb&pcampaignid=books_booksearch_atb",
+		"groupMembers": ["Niusarte Pinheiro"]
+	},
+	{
+		"name": "Temas transversais e Tratamento da Informação em um livro didático de Matemática do 8º ano do Ensino Fundamental publicado em 2012.",
+		"description": "Esta coletânea resulta dos cinco eventos promovidos pelo Grupo de estudos e Pesquisas em Educação Matemática – GEPEMA/UFVJM, em parceria com o Curso de Licenciatura em Matemática e colaboradores. A fim de manter viva a memória do evento, foram convidados os professores colaboradores que participaram dessa história, para contribuir com seus trabalhos de pesquisa.",
+		"year": 2022,
+		"type": "article",
+		"publisher": "Revista Matemática e Ciência: construção, conhecimento e criatividade",
+		"downloadLink": "http://periodicos.pucminas.br/index.php/matematicaeciencia/article/view/28962/19914",
+		"DOI": "https://doi.org/10.5752/P.2674-9416.2022v5n1p82-99",
+		"groupMembers": ["Laís Couy"]
+	},
+	{
+		"name": "Learning Evaluation in Mathematics Teaching Degree and the Possible Implications for Teacher Training",
+		"description": "This study aims to analyze the perceptions of undergraduates in Mathematics Teaching on the evaluation practices of their teachers of specific content subjects and the possible implications of this practice in their training as teachers. It is a qualitative research, expositive and explicative, developed in a Mathematics Teaching degree in a Brazilian Federal University.",
+		"year": 2021,
+		"type": "article",
+		"publisher": "The Montana Math Enthusiast",
+		"downloadLink": "https://scholarworks.umt.edu/cgi/viewcontent.cgi?article=1560&context=tme",
+		"DOI": "https://doi.org/10.54870/1551-3440.1560",
+		"groupMembers": ["Niusarte Pinheiro"]
+	},
+	{
+		"name": "Percepções de licenciandos/as em Matemática sobre avaliação da aprendizagem.",
+		"description": "Este estudo objetiva analisar percepções de licenciandos/as sobre as práticas avaliativas em um curso de licenciatura em matemática e discutir implicações para a aprendizagem dos conteúdos específicos matemáticos. Trata-se de resultado de uma pesquisa qualitativa, expositiva e explicativa. O curso e os/as estudantes foram selecionados/as por amostra não probabilística acidental.",
+		"year": 2021,
+		"type": "article",
+		"publisher": "Educação Matemática Pesquisa",
+		"downloadLink": "https://revistas.pucsp.br/index.php/emp/article/view/53746/37598",
+		"DOI": "https://doi.org/10.23925/1983-3156.2021v23i2p130-159",
+		"groupMembers": ["Niusarte Pinheiro"]
+	},
+	{
+		"name": "A Avaliação da Aprendizagem Segundo Projetos Pedagógicos de Cursos de Licenciatura em Matemática.",
+		"description": "Este estudo objetiva analisar como a avaliação da aprendizagem está prescrita nos PPC de Licenciatura em Matemática que passaram por reformulações conforme Resolução CNE/CP 02/2015, as concepções pedagógicas evidenciadas, respectivos critérios e instrumentos predominantes nas ementas das disciplinas que compõem os currículos dos cursos, bem como os conhecimentos referentes à temática que dizem respeito à formação para a docência.",
+		"year": 2021,
+		"type": "article",
+		"publisher": "Revista Sergipana de Matemática e Educação Matemática",
+		"downloadLink": "https://seer.ufs.br/index.php/ReviSe/article/view/15760/12317",
+		"DOI": "https://doi.org/10.34179/revisem.v6i3.15760",
+		"groupMembers": ["Niusarte Pinheiro"]
+	},
+	{
+		"name": "Ações de Formação do PNAIC: Uma análise de relatórios produzidos pelas coordenações das IFES.",
+		"description": "Este estudo objetiva analisar como a avaliação da aprendizagem está prescrita nos PPC de Licenciatura em Matemática que passaram por reformulações conforme Resolução CNE/CP 02/2015, as concepções pedagógicas evidenciadas, respectivos critérios e instrumentos predominantes nas ementas das disciplinas que compõem os currículos dos cursos, bem como os conhecimentos referentes à temática que dizem respeito à formação para a docência.",
+		"year": 2022,
+		"type": "book chapter",
+		"pages": "189-219",
+		"publisher": "Arranjos colaborativos para uma política de alfabetização.",
+		"groupMembers": ["Greyd Mattos", "Laís Couy"]
+	}
+]

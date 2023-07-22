@@ -1,0 +1,67 @@
+[
+	{
+		"name": "Profa. Dra Niusarte Virginia Pinheiro",
+		"photo": "/images/niusarte.png",
+		"lattes": "http://lattes.cnpq.br/2424454895469013"
+	},
+	{
+		"name": "Profa. Ms Lais Couy",
+		"photo": "/images/laís.jpg",
+		"lattes": "http://lattes.cnpq.br/2424454895469013"
+	},
+	{
+		"name": "Profa. Ms Greyd Cardoso Mattos",
+		"photo": "/images/greyd.jpg",
+		"lattes": "http://lattes.cnpq.br/9886903057815663"
+	},
+	{
+		"name": "Prof. Dr. Weversson Dalmaso Sellin",
+		"photo": "images/weversson.jpg",
+		"lattes": "http://lattes.cnpq.br/0060790261733572"
+	},
+	{
+		"name": "Profa. Dra Silvia Swain Canôas",
+		"photo": "/images/silvia.jpg",
+		"lattes": "http://lattes.cnpq.br/9338669775386660"
+	},
+	{
+		"name": "Prof. Dr. Fábio Silva de Souza",
+		"photo": "/images/fabio.jpg",
+		"lattes": "http://lattes.cnpq.br/0941327169911953"
+	},
+	{
+		"name": "Profa Ms Rosiane de Jesus Santos",
+		"photo": "/images/rosiane.jpg",
+		"lattes": "http://lattes.cnpq.br/9018992285222159"
+	},
+	{
+		"name": "Prof. Antônio Carlos Alves de Oliveira",
+		"photo": "/images/antonio.jpg",
+		"lattes": "http://lattes.cnpq.br/9018992285222159"
+	},
+	{
+		"name": "Profa. Elizabeth Gonçalves Martins",
+		"photo": "/images/elizabeth.jpg",
+		"lattes": "http://lattes.cnpq.br/5003511631840283"
+	},
+	{
+		"name": "Rogério Starich Silva",
+		"photo": "/images/rogerio.jpg",
+		"lattes": ""
+	},
+	{
+		"name": "Patrícia Baldow Guimarães",
+		"photo": "/images/patricia.jpg",
+		"lattes": "http://lattes.cnpq.br/3384296697470381"
+	},
+	{
+		"name": "Mário Guimarães Gomes",
+		"photo": "/images/mario.jpg",
+		"lattes": "http://lattes.cnpq.br/3657360137048645"
+	},
+	{
+		"name": "Samuel Carlos Teles",
+		"photo": "/images/samuel.jpeg",
+		"lattes": "http://lattes.cnpq.br/2853722568864921"
+	}
+]
