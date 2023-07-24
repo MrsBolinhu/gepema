@@ -1,7 +1,6 @@
 <script>
 	import '../app.css';
-	import Footer from '../components/footer.svelte';
-	import Navbar from '../components/navbar.svelte';
+	import { Footer, Navbar } from '../components';
 </script>
 
 <Navbar />

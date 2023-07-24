@@ -1,6 +1,6 @@
 <script>
-	import Productions from '../../data/productions.json';
-	import Card from './card.svelte';
+	import { ProductionsCard } from '../../components';
+	import { Productions } from '../../data';
 
 	let searchTerm = '';
 	let results = Productions.sort(function (a, b) {
@@ -42,7 +42,7 @@
 	<div class="bg-white p-4 py-8 mt-2">
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-2 mt-4">
 			{#each results as production}
-				<Card {production} />
+				<ProductionsCard {production} />
 			{/each}
 		</div>
 	</div>

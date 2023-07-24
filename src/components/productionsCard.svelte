@@ -1,5 +1,5 @@
 <script>
-	import CalendarIcon from '../../components/Icons/calendarIcon.svelte';
+	import { CalendarIcon } from '.';
 
 	export let production;
 	let groupMembers = production?.groupMembers;

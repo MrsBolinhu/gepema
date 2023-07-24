@@ -1,6 +1,6 @@
 <script>
 	import { BooksCard, Team } from '../components';
-	import Productions from '../data/productions.json';
+	import { Productions } from '../data';
 </script>
 
 <div>
