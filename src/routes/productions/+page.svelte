@@ -1,5 +1,4 @@
 <script>
-	import {fly} from 'svelte/transition';
 	import Productions from '../../data/productions.json';
 	import Card from './card.svelte';
 
@@ -17,7 +16,7 @@
 	};
 </script>
 
-<div in:fly={{x: 400}} class="px-8 pb-[180px]">
+<div class="px-8 pb-[180px]">
 	<div class="flex flex-wrap items-center p-5 mt-12 gap-4 justify-center">
 		<form class="">
 			<label

@@ -1,17 +1,16 @@
 <script>
-	import {fade, fly} from 'svelte/transition';
-	import {BooksCard, Team} from '../components';
+	import { BooksCard, Team } from '../components';
 	import Productions from '../data/productions.json';
 </script>
 
-<div in:fly={{x: -400}} out:fly={{x: -400}}>
+<div>
 	<div class="flex w-full h-full lg:min-h-[460px]">
 		<div class="mx-12 md:mx-0 py-16 md:p-[100px]">
 			<a href="http://portal.ufvjm.edu.br/" target="_blank">
 				<img src="/images/ufvjm-logo.png" alt="Logo da UFVJM" width="200px" />
 			</a>
 			<h1 class="font-black text-[35px] md:text-[45px] mt-6">
-				Somos o Grupo de Estudos <br /> e Pesquisa em Educação Matemática
+				Somos o Grupo de Estudos e Pesquisa em Educação Matemática
 			</h1>
 		</div>
 
@@ -20,7 +19,7 @@
 		</div>
 	</div>
 
-	<div transition:fade class="grid mx-auto h-auto px-12 md:px-[100px] py-[50px] bg-gray">
+	<div class="grid mx-auto h-auto px-12 md:px-[100px] py-[50px] bg-gray">
 		<h2 class="font-extrabold pt-[25px] text-[35px]">Objetivos</h2>
 		<div
 			class="grid grid-cols-1 md:grid-cols-2 w-full mx-auto md:divide-x text-center items-center py-[35px]">
@@ -55,8 +54,7 @@
 		</div>
 	</div>
 
-	<div
-		class="grid mx-auto h-auto px-12 md:px-[100px] pb-[50px] bg-gradient-to-t from-gray to-offWhite">
+	<div class="grid mx-auto h-auto px-12 md:px-[100px] pb-[50px] bg-gradient-to-t from-gray to-offWhite">
 		<Team />
 	</div>
 </div>
