@@ -1,5 +1,5 @@
 <script>
-	import { CalendarIcon } from '.';
+	import { CalendarIcon, ExternalLinkIcon } from '.';
 
 	export let production;
 	let groupMembers = production?.groupMembers;
@@ -23,19 +23,7 @@
 			target="_blank"
 			class="inline-flex px-4 items-center text-blue-600 hover:underline">
 			Abrir PDF
-			<svg
-				class="w-3 h-3 ml-2.5"
-				aria-hidden="true"
-				xmlns="http://www.w3.org/2000/svg"
-				fill="none"
-				viewBox="0 0 18 18">
-				<path
-					stroke="currentColor"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
-			</svg>
+			<ExternalLinkIcon/>
 		</a>
 	</div>
 
@@ -43,8 +31,7 @@
 		<p class="pt-5 pb-2 text-bs">Membros colaboradores:</p>
 		<div class="flex flex-wrap gap-2">
 			{#each groupMembers as member}
-				<div
-					class="items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-md bg-gray">
+				<div class="items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-md bg-gray">
 					<span class="px-5 py-2.5 bg-white rounded-md">
 						{member}
 					</span>
