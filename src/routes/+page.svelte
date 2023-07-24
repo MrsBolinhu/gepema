@@ -5,9 +5,9 @@
 
 <div>
 	<div class="flex w-full h-full lg:min-h-[460px]">
-		<div class="mx-12 md:mx-0 py-16 md:p-[100px]">
+		<div class="px-8 md:mx-0 py-16 md:p-[100px]">
 			<a href="http://portal.ufvjm.edu.br/" target="_blank">
-				<img src="/images/ufvjm-logo.png" alt="Logo da UFVJM" width="200px" />
+				<img src="/images/ufvjm-logo.png" alt="Logo da UFVJM" width="140px" />
 			</a>
 			<h1 class="font-black text-[35px] md:text-[45px] mt-6">
 				Somos o Grupo de Estudos e Pesquisa em Educação Matemática
@@ -19,7 +19,7 @@
 		</div>
 	</div>
 
-	<div class="grid mx-auto h-auto px-12 md:px-[100px] py-[50px] bg-gray">
+	<div class="grid mx-auto h-auto px-8 md:px-[100px] py-[50px] bg-gray">
 		<h2 class="font-extrabold pt-[25px] text-[35px]">Objetivos</h2>
 		<div
 			class="grid grid-cols-1 md:grid-cols-2 w-full mx-auto md:divide-x text-center items-center py-[35px]">
@@ -43,7 +43,7 @@
 		</div>
 	</div>
 
-	<div class="grid mx-auto h-auto px-12 md:px-[100px] py-[50px]">
+	<div class="grid mx-auto h-auto px-8 md:px-[100px] py-[50px]">
 		<h2 class="font-extrabold text-[35px] mx-auto">Nossos livros</h2>
 		<div class="grid grid-cols-1 md:grid-cols-8 w-full mx-auto text-center items-center py-[35px]">
 			<img src="/images/books.png" alt="books" class="md:max-w-md md:pr-[20px] col-span-3" />
@@ -54,7 +54,7 @@
 		</div>
 	</div>
 
-	<div class="grid mx-auto h-auto px-12 md:px-[100px] pb-[50px] bg-gradient-to-t from-gray to-offWhite">
+	<div class="grid mx-auto h-auto px-8 md:px-[140px] pb-[50px] bg-gradient-to-t from-gray to-offWhite">
 		<Team />
 	</div>
 </div>

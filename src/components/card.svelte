@@ -12,8 +12,8 @@
 			src={photo}
 			alt={name} />
 	</div>
-	<div class="p-5">
-		<h3 class="text-lg font-bold tracking-tight text-gray-900 dark:text-white">
+	<div class="p-5 break-words overflow-hidden">
+		<h3 class="text-sm md:text-lg font-bold tracking-tight text-gray-900 dark:text-white">
 			<a href={lattes} target="_blank">{name}</a>
 		</h3>
 	</div>
