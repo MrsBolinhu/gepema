@@ -6,7 +6,7 @@
 	},
 	{
 		"name": "Profa. Ms Lais Couy",
-		"photo": "/images/laís.jpg",
+		"photo": "/images/lais.jpg",
 		"lattes": "http://lattes.cnpq.br/2424454895469013"
 	},
 	{
@@ -63,5 +63,30 @@
 		"name": "Samuel Carlos Teles",
 		"photo": "/images/samuel.jpeg",
 		"lattes": "http://lattes.cnpq.br/2853722568864921"
+	},
+	{
+		"name": "Letícia Rodrigues da Silva - Licencianda em Matemática",
+		"photo": "",
+		"lattes": "http://lattes.cnpq.br/6598061750085503"
+	},
+	{
+		"name": "Eliana Alves Cruz – Licencianda em Matemática",
+		"photo": "",
+		"lattes": "http://lattes.cnpq.br/2853722568864921"
+	},
+	{
+		"name": "Tec. Ms. Jaime Batista de Souza",
+		"photo": "",
+		"lattes": "http://lattes.cnpq.br/9545134112471180"
+	},
+	{
+		"name": "Téc. Ms. Maraísa Kíssila Oliveira Fernandes",
+		"photo": "",
+		"lattes": "http://lattes.cnpq.br/5432730254047352"
+	},
+	{
+		"name": "Edson Martins Gagliardi",
+		"photo": "",
+		"lattes": "http://lattes.cnpq.br/1285078224091063"
 	}
 ]
