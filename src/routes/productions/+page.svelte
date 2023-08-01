@@ -16,13 +16,13 @@
 	};
 </script>
 
-<div class="px-8 pb-[180px]">
+<div class="px-2 pb-[180px]">
 	<div class="flex flex-wrap items-center p-5 mt-12 gap-4 justify-center">
 		<form class="">
 			<label
 				for="default-search"
 				class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Pesquisar</label>
-			<div class="relative max-w-[700px] min-w-[350px]">
+			<div class="relative max-w-[700px] min-w-[350px] px-4 sm:px-0">
 				<input
 					on:change={search}
 					bind:value={searchTerm}
@@ -33,7 +33,7 @@
 				<button
 					on:click={search}
 					type="submit"
-					class="text-white absolute right-2.5 bottom-2.5 bg-lightGray hover:bg-orange focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2"
+					class="text-white absolute right-6 sm:right-2.5 bottom-2.5 bg-lightGray hover:bg-orange focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2"
 					>Pesquisar</button>
 			</div>
 		</form>
