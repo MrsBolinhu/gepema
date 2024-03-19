@@ -1,4 +1,5 @@
 <script>
+	import { base } from "$app/paths";
 	import { BooksCard, Team } from '../components';
 	import { Productions } from '../data';
 </script>
@@ -7,7 +8,7 @@
 	<div class="flex w-full h-full lg:min-h-[460px]">
 		<div class="px-8 md:mx-0 py-16 md:p-[100px]">
 			<a href="http://portal.ufvjm.edu.br/" target="_blank">
-				<img src="/images/ufvjm-logo.png" alt="Logo da UFVJM" width="140px" />
+				<img src="{base}/images/ufvjm-logo.png" alt="Logo da UFVJM" width="140px" />
 			</a>
 			<h1 class="font-black text-[35px] md:text-[45px] mt-6">
 				Somos o Grupo de Estudos e Pesquisa em Educação Matemática
@@ -15,7 +16,7 @@
 		</div>
 
 		<div class="hidden lg:flex self-end max-w-2xl">
-			<img src="/images/main-img.png" alt="math illustration" />
+			<img src="{base}/images/main-img.png" alt="math illustration" />
 		</div>
 	</div>
 
@@ -46,7 +47,7 @@
 	<div class="grid mx-auto h-auto px-8 md:px-[100px] py-[50px]">
 		<h2 class="font-extrabold text-[35px] mx-auto">Nossos livros</h2>
 		<div class="grid grid-cols-1 md:grid-cols-8 w-full mx-auto text-center items-center py-[35px]">
-			<img src="/images/books.png" alt="books" class="md:max-w-md md:pr-[20px] col-span-3" />
+			<img src="{base}/images/books.png" alt="books" class="md:max-w-md md:pr-[20px] col-span-3" />
 			<div class="col-span-5">
 				<BooksCard production={Productions[0]} />
 				<BooksCard production={Productions[1]} />
