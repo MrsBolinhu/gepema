@@ -1,4 +1,5 @@
 <script>
+	import { base } from "$app/paths";
 	import { NoPhotoIcon } from "./Icons";
 	export let name, lattes, photo;
 </script>
@@ -11,7 +12,7 @@
 		{#if photo}
 			<img
 				class="w-full h-full aspect-square object-cover rounded-lg md:rounded-lg sm:rounded-none sm:rounded-l-lg"
-				src={photo}
+				src={base + photo}
 				alt={name}
 			/>
 		{:else}

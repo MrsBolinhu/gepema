@@ -1,4 +1,5 @@
 <script>
+	import { base } from "$app/paths";
 	export let showModal;
 	export let picture;
 	export let handlePictureClick;
@@ -17,7 +18,7 @@
 				class="relative w-[700px] transform overflow-hidden rounded-lg bg-white text-left shadow-2xl transition-all sm:my-8 mx-4 lg:mx-0">
 				<img
 					class="w-full h-full rounded-t-lg object-cover"
-					src={picture.path}
+					src={base + picture.path}
 					alt={picture.description} />
 				<div class="bg-offWhite p-6">
 					<h1 class="font-black">{picture.title}</h1>
