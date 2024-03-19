@@ -17,19 +17,19 @@
 				<div class="hidden md:block">
 					<div class="ml-10 flex items-baseline space-x-4">
 						<a
-							href="/"
+							href="{base}/"
 							class="bg-gray-900 text-white hover:bg-blue hover:text-offWhite rounded-md px-3 py-2 text-sm font-medium"
 							aria-current="page">Início</a>
 						<a
-							href="/productions"
+							href="{base}/productions"
 							class="text-gray-300 hover:bg-blue hover:text-offWhite rounded-md px-3 py-2 text-sm font-medium"
 							>Produções</a>
 						<a
-							href="/gallery"
+							href="{base}/gallery"
 							class="text-gray-300 hover:bg-blue hover:text-offWhite rounded-md px-3 py-2 text-sm font-medium"
 							>Galeria</a>
 						<a
-							href="/contact"
+							href="{base}/contact"
 							class="text-gray-300 hover:bg-blue hover:text-offWhite rounded-md px-3 py-2 text-sm font-medium"
 							>Contato</a>
 					</div>
@@ -77,19 +77,19 @@
 	<div class={`${showMobileMenu ? '' : 'hidden'} shadow-lg pb-5 rounded-b-md`}>
 		<div class="space-y-1 px-10 pb-3 pt-2">
 			<a
-				href="/"
+				href="{base}/"
 				class="bg-gray-900 text-white hover:bg-gray hover:shadow-lg block rounded-md px-3 py-2 text-base font-medium"
 				aria-current="page">Início</a>
 			<a
-				href="/productions"
+				href="{base}/productions"
 				class="text-gray-300 hover:bg-gray hover:shadow-lg hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 				>Produções</a>
 			<a
-				href="/gallery"
+				href="{base}/gallery"
 				class="text-gray-300 hover:bg-gray hover:shadow-lg hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 				>Galeria</a>
 			<a
-				href="/contact"
+				href="{base}/contact"
 				class="text-gray-300 hover:bg-gray hover:shadow-lg hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 				>Contato</a>
 		</div>
