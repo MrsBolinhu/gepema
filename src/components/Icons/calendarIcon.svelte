@@ -3,7 +3,7 @@
 	export let color = '#0f0f0f';
 </script>
 
-<svg width={size} height={size} viewBox="0 0 24 24" fill={color} xmlns="http://www.w3.org/2000/svg">
+<svg width={size} height={size} viewBox="0 0 24 24" fill={color} xmlns="https://www.w3.org/2000/svg">
 	<path
 		d="M7 14C7 13.4477 7.44772 13 8 13C8.55229 13 9 13.4477 9 14C9 14.5523 8.55229 15 8 15C7.44772 15 7 14.5523 7 14Z"
 		fill={color} />

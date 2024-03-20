@@ -7,7 +7,7 @@
 <div>
 	<div class="flex w-full h-full lg:min-h-[460px]">
 		<div class="px-8 md:mx-0 py-16 md:p-[100px]">
-			<a href="http://portal.ufvjm.edu.br/" target="_blank">
+			<a href="https://portal.ufvjm.edu.br/" target="_blank">
 				<img src="{base}/images/ufvjm-logo.png" alt="Logo da UFVJM" width="140px" />
 			</a>
 			<h1 class="font-black text-[35px] md:text-[45px] mt-6">

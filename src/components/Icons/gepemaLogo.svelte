@@ -7,7 +7,7 @@
 	width={size}
 	height={size}
 	fill={color}
-	xmlns="http://www.w3.org/2000/svg"
+	xmlns="https://www.w3.org/2000/svg"
 	viewBox="0 0 2938.96 2596.15"
 	><defs
 		><style>
