@@ -51,6 +51,7 @@
 			<div class="col-span-5">
 				<BooksCard production={Productions[0]} />
 				<BooksCard production={Productions[1]} />
+				<BooksCard production={Productions[2]} />
 			</div>
 		</div>
 	</div>
