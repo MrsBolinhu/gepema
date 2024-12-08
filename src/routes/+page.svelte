@@ -17,7 +17,8 @@
 	<section
 		class="fade {visible
 			? 'show'
-			: ''} px-[20px] my-[60px] h-[600px] md:h-full md:py-[200px] justify-items-center content-center bg-center bg-no-repeat w-full bg-[url('images/Logo.png')] bg-contain">
+			: ''} px-[20px] my-[60px] h-[600px] md:h-full md:py-[200px] justify-items-center content-center bg-center bg-no-repeat w-full bg-contain"
+		style="background-image: url('images/Logo.png')">
 		<h1 class="font-nunito font-black text-[60px] lg:text-[80px] text-gray-500">GEPEMA</h1>
 		<h2 class="text-lg md:text-[40px] text-center text-gray-500 h-auto">
 			Grupo de Estudos e Pesquisa <br /> em Educação Matemática
@@ -29,7 +30,8 @@
 	</section>
 
 	<section
-		class="h-full justify-items-center p-7 w-full bg-no-repeat bg-[url('images/river.png')] bg-cover">
+		class="h-full justify-items-center p-7 w-full bg-no-repeat bg-cover"
+		style="background-image: url('images/river.png')">
 		<SectionWraper title="O que fazemos">
 			<p
 				class="text-lg md:text-[24px] md:max-w-[900px] text-justify md:text-center text-gray-500 leading-loose">
