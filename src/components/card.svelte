@@ -8,7 +8,7 @@
 	href={lattes}
 	target="_blank"
 	class="items-center bg-lightGray rounded-lg shadow-xl sm:flex hover:bg-offWhite">
-	<div class="lg:max-w-[105px] h-full">
+	<div class="lg:max-w-[105px]">
 		{#if photo}
 			<img
 				class="w-full h-full aspect-square object-cover rounded-lg md:rounded-lg sm:rounded-none sm:rounded-l-lg"
