@@ -3,10 +3,18 @@
 	"singleQuote": true,
 	"trailingComma": "none",
 	"tabWidth": 2,
-	"bracketSpacing": false,
+	"bracketSpacing": true,
 	"bracketSameLine": true,
 	"printWidth": 100,
 	"plugins": ["prettier-plugin-svelte"],
 	"pluginSearchDirs": ["."],
-	"overrides": [{"files": "*.svelte", "options": {"parser": "svelte"}}]
+	"overrides": [
+		{
+			"files": "*.svelte",
+			"options": {
+				"parser": "svelte",
+				"bracketSpacing": true
+			}
+		}
+	]
 }

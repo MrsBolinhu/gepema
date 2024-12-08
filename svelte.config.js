@@ -13,8 +13,11 @@ const config = {
 			precompress: false,
 			strict: true
 		}),
+		alias: {
+			$components: 'src/components'
+		},
 		paths: {
-			base: process.env.NODE_ENV === "production" ? "/gepema" : ""
+			base: process.env.NODE_ENV === 'production' ? '/gepema' : ''
 		}
 	},
 	preprocess: vitePreprocess()

@@ -6,31 +6,27 @@
 </script>
 
 <nav class="bg-gray-800">
-	<div class="mx-auto px-12 pt-12 md:px-24 items-center">
+	<div class="mx-auto px-12 pt-12 md:px-24 md:max-w-[900px] items-center">
 		<div class="flex h-16 items-center justify-between">
 			<div class="flex w-full items-center justify-between">
-				<div class="flex items-center gap-5">
-					<GepemaLogo size="24px" color="blue" />
-					<h1 class="font-black">GEPEMA</h1>
-				</div>
+				<a href="{base}/" class="flex items-center gap-5">
+					<GepemaLogo size="34px" color="blue" />
+					<h1 class="font-nunito font-black text-lg">GEPEMA</h1>
+				</a>
 
 				<div class="hidden md:block">
-					<div class="ml-10 flex items-baseline space-x-4">
-						<a
-							href="{base}/"
-							class="bg-gray-900 text-white hover:bg-blue hover:text-offWhite rounded-md px-3 py-2 text-sm font-medium"
-							aria-current="page">Início</a>
+					<div class="ml-10 flex items-baseline space-x-4 text-lg font-medium">
 						<a
 							href="{base}/productions"
-							class="text-gray-300 hover:bg-blue hover:text-offWhite rounded-md px-3 py-2 text-sm font-medium"
+							class="text-gray-300 hover:bg-blue hover:text-offWhite rounded-md px-3 py-2"
 							>Produções</a>
 						<a
 							href="{base}/gallery"
-							class="text-gray-300 hover:bg-blue hover:text-offWhite rounded-md px-3 py-2 text-sm font-medium"
+							class="text-gray-300 hover:bg-blue hover:text-offWhite rounded-md px-3 py-2"
 							>Galeria</a>
 						<a
 							href="{base}/contact"
-							class="text-gray-300 hover:bg-blue hover:text-offWhite rounded-md px-3 py-2 text-sm font-medium"
+							class="text-gray-300 hover:bg-blue hover:text-offWhite rounded-md px-3 py-2"
 							>Contato</a>
 					</div>
 				</div>

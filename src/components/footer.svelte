@@ -1,5 +1,6 @@
 <script>
-	import {EmailIcon, GepemaLogo, LocationIcon, PhoneIcon} from './Icons';
+	import { EmailIcon, GepemaLogo, LocationIcon, PhoneIcon } from './Icons';
+	const currentYear = new Date().getFullYear();
 </script>
 
 <footer class="mx-8 pb-5">
@@ -39,7 +40,7 @@
 		<div class="flex items-center gap-5">
 			<GepemaLogo size="24px" />
 			<span class="py-5 text-sm align-center text-gray-500 sm:text-center">
-				© 2023 GEPEMA. All Rights Reserved.
+				© {currentYear} GEPEMA. All Rights Reserved.
 			</span>
 		</div>
 	</div>
