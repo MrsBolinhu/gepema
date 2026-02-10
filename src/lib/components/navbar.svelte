@@ -1,85 +1,68 @@
 <script>
-	import { base } from "$app/paths";
-	import GepemaLogo from './Icons/gepemaLogo.svelte';
-	let showMobileMenu = false;
-	const handleMobileIconClick = () => (showMobileMenu = !showMobileMenu);
+    import { base } from "$app/paths";
+    import { GepemaLogo } from "./Icons";
+    import { AppBar, Menu } from "@skeletonlabs/skeleton-svelte";
+
+    const links = [
+        { label: "Início", href: `${base}/#` },
+        { label: "Produções", href: `${base}/productions` },
+        { label: "Galeria", href: `${base}/gallery` },
+    ];
+
+    let mobileOpen = false;
+    const toggleMobile = () => (mobileOpen = !mobileOpen);
+    const closeMobile = () => (mobileOpen = false);
+	const openMobile = () => (mobileOpen = true);
 </script>
 
-<nav class="bg-gray-800">
-	<div class="mx-auto px-12 pt-12 md:px-24 md:max-w-[900px] items-center">
-		<div class="flex h-16 items-center justify-between">
-			<div class="flex w-full items-center justify-between">
-				<a href="{base}/" class="flex items-center gap-5">
-					<GepemaLogo size="34px" color="blue" />
-					<h1 class="font-nunito font-black text-lg">GEPEMA</h1>
-				</a>
+<AppBar class="mx-auto px-12 pt-12 md:px-24 md:max-w-[900px] flex items-center justify-between">
+    <div class="flex items-center gap-5">
+        <a class="flex items-center gap-5" href="/#" title="View Homepage" aria-label="View Homepage" on:click={closeMobile}>
+            <GepemaLogo size="34px" color="blue" />
+            <h1 class="font-nunito font-black text-lg">GEPEMA</h1>
+        </a>
+    </div>
 
-				<div class="hidden md:block">
-					<div class="ml-10 flex items-baseline space-x-4 text-lg font-medium">
-						<a
-							href="{base}/productions"
-							class="text-gray-300 hover:bg-blue hover:text-offWhite rounded-md px-3 py-2"
-							>Produções</a>
-						<a
-							href="{base}/gallery"
-							class="text-gray-300 hover:bg-blue hover:text-offWhite rounded-md px-3 py-2"
-							>Galeria</a>
-					</div>
-				</div>
-			</div>
+    <nav class="hidden md:flex md:items-center md:gap-2" aria-label="Primary">
+        {#each links as link (link)}
+            <a
+                href={link.href}
+                class="text-gray-300 hover:bg-blue hover:text-offWhite rounded-md px-3 py-2"
+            >
+                {link.label}
+            </a>
+        {/each}
+    </nav>
 
-			<div class="-mr-2 flex md:hidden">
-				<!-- Mobile menu button -->
-				<button
-					on:click={handleMobileIconClick}
-					type="button"
-					class="inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-					aria-controls="mobile-menu"
-					aria-expanded="false">
-					<span class="sr-only">Open main menu</span>
-					<!-- Menu open: "hidden", Menu closed: "block" -->
-					<svg
-						class="block h-6 w-6"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke-width="1.5"
-						stroke="currentColor"
-						aria-hidden="true">
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-					</svg>
-					<!-- Menu open: "block", Menu closed: "hidden" -->
-					<svg
-						class="hidden h-6 w-6"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke-width="1.5"
-						stroke="currentColor"
-						aria-hidden="true">
-						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-					</svg>
-				</button>
-			</div>
-		</div>
-	</div>
+    <div class="md:hidden relative">
+        <Menu open={mobileOpen} on:open={openMobile} on:close={closeMobile}>
+            <Menu.Trigger>
+                <button
+                    type="button"
+                    class="inline-flex items-center justify-center rounded-md p-2 text-gray-300 hover:bg-blue hover:text-offWhite w-10 h-10"
+                    aria-label="Open menu"
+                    aria-expanded={mobileOpen}
+                    on:click={toggleMobile}
+                >
+                    <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </Menu.Trigger>
 
-	<!-- Mobile menu, show/hide based on menu state. -->
-	<div class={`${showMobileMenu ? '' : 'hidden'} shadow-lg pb-5 rounded-b-md`}>
-		<div class="space-y-1 px-10 pb-3 pt-2">
-			<a
-				href="{base}/"
-				class="bg-gray-900 text-white hover:bg-gray hover:shadow-lg block rounded-md px-3 py-2 text-base font-medium"
-				aria-current="page">Início</a>
-			<a
-				href="{base}/productions"
-				class="text-gray-300 hover:bg-gray hover:shadow-lg hover:text-white block rounded-md px-3 py-2 text-base font-medium"
-				>Produções</a>
-			<a
-				href="{base}/gallery"
-				class="text-gray-300 hover:bg-gray hover:shadow-lg hover:text-white block rounded-md px-3 py-2 text-base font-medium"
-				>Galeria</a>
-		</div>
-	</div>
-</nav>
+            <Menu.Content class="absolute right-0 mt-2 min-w-[180px] z-50 bg-gray rounded-md shadow-lg">
+                {#each links as link (link)}
+                    <Menu.Item>
+                        <a
+                            href={link.href}
+                            class="block w-full text-gray-300 hover:bg-blue hover:text-offWhite rounded-md px-3 py-2"
+                            on:click={closeMobile}
+                        >
+                            {link.label}
+                        </a>
+                    </Menu.Item>
+                {/each}
+            </Menu.Content>
+        </Menu>
+    </div>
+</AppBar>
