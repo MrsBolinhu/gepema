@@ -24,10 +24,6 @@
 							href="{base}/gallery"
 							class="text-gray-300 hover:bg-blue hover:text-offWhite rounded-md px-3 py-2"
 							>Galeria</a>
-						<a
-							href="{base}/contact"
-							class="text-gray-300 hover:bg-blue hover:text-offWhite rounded-md px-3 py-2"
-							>Contato</a>
 					</div>
 				</div>
 			</div>
@@ -84,10 +80,6 @@
 				href="{base}/gallery"
 				class="text-gray-300 hover:bg-gray hover:shadow-lg hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 				>Galeria</a>
-			<a
-				href="{base}/contact"
-				class="text-gray-300 hover:bg-gray hover:shadow-lg hover:text-white block rounded-md px-3 py-2 text-base font-medium"
-				>Contato</a>
 		</div>
 	</div>
 </nav>

@@ -3,7 +3,7 @@ export { default as Card } from './card.svelte';
 export * from './common/index.js';
 export { default as Footer } from './footer.svelte';
 export { default as GalleryCard } from './galleryCard.svelte';
-export * from './Icons';
+export * from './Icons/index.js';
 export { default as Modal } from './modal.svelte';
 export { default as Navbar } from './navbar.svelte';
 export { default as ProductionsCard } from './productionsCard.svelte';

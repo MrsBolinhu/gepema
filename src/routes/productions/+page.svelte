@@ -1,6 +1,6 @@
 <script>
-	import { ProductionsCard } from '../../components';
-	import { Productions } from '../../data';
+	import { ProductionsCard } from '$lib/components';
+	import { Productions } from '$lib/data';
 
 	let searchTerm = '';
 	let results = Productions.sort(function (a, b) {

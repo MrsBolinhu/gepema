@@ -1,8 +1,8 @@
 <script>
-	import SectionWraper from '$components/common/section-wrapper/sectionWrapper.svelte';
+	import SectionWraper from '$lib/components/common/section-wrapper/sectionWrapper.svelte';
 	import { onMount } from 'svelte';
-	import BooksCard from '../components/pages/home/booksCard.svelte';
-	import Team from '../components/team.svelte';
+	import BooksCard from '$lib/components/pages/home/booksCard.svelte';
+	import Team from '$lib/components/team.svelte';
 
 	let visible = false;
 

@@ -1,6 +1,6 @@
 <script>
 	import { Card } from '.';
-	import { Team } from '../data';
+	import { Team } from '$lib/data';
 </script>
 
 <div class="pb-8 px-0 mx-auto max-w-screen-xl lg:pb-16 lg:px-6">
