@@ -4,7 +4,7 @@
     import { AppBar, Menu } from "@skeletonlabs/skeleton-svelte";
 
     const links = [
-        { label: "Início", href: `${base}/#` },
+        { label: "Início", href: `${base}/` },
         { label: "Produções", href: `${base}/productions` },
         { label: "Galeria", href: `${base}/gallery` },
     ];
@@ -17,7 +17,7 @@
 
 <AppBar class="mx-auto px-12 pt-12 md:px-24 md:max-w-[900px] flex items-center justify-between">
     <div class="flex items-center gap-5">
-        <a class="flex items-center gap-5" href="/#" title="View Homepage" aria-label="View Homepage" on:click={closeMobile}>
+        <a class="flex items-center gap-5" href={base} title="View Homepage" aria-label="View Homepage" on:click={closeMobile}>
             <GepemaLogo size="34px" color="blue" />
             <h1 class="font-nunito font-black text-lg">GEPEMA</h1>
         </a>

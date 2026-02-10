@@ -10,7 +10,7 @@
 	aria-labelledby="modal-title"
 	role="dialog"
 	aria-modal="true">
-	<div class="fixed inset-0 bg-darkGray backdrop-blur-sm bg-opacity-75 transition-opacity" />
+	<div class="fixed inset-0 bg-darkGray backdrop-blur-sm bg-opacity-75 transition-opacity"></div>
 
 	<div on:click={handlePictureClick} aria-hidden="true" class="fixed inset-0 z-10 overflow-y-auto">
 		<div class="flex min-h-full items-center justify-center px-2 sm:items-center sm:p-0">
