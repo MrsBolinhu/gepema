@@ -1,4 +1,5 @@
 <script>
+	import { t } from '$lib/components/translation/il18n.js';
 	import { EmailIcon, GepemaLogo, LocationIcon, PhoneIcon } from './Icons';
 	const currentYear = new Date().getFullYear();
 </script>
@@ -20,18 +21,17 @@
 			<div class="max-w-xs text-justify mx-auto">
 				<div class="flex justify-center gap-3">
 					<LocationIcon size="24px" />
-					<h2>Endereço</h2>
+					<h2>{$t('footer.address')}</h2>
 				</div>
 				<span class=" text-sm align-center text-gray-500 sm:text-center">
-					Universidade Federal dos Vales do Jequitinhonha e Mucuri - UFVJM / Campus do Mucuri. Rua
-					do Cruzeiro, nº 01, Bairro Jardim São Paulo. Teófilo Otoni/MG
+					{$t('footer.address.value')}
 				</span>
 			</div>
 
 			<div class="max-w-xs text-justify mx-auto">
 				<div class="flex justify-center gap-3">
 					<PhoneIcon size="24px" />
-					<h2>Telefone</h2>
+					<h2>{$t('footer.phone')}</h2>
 				</div>
 				<span class=" text-sm align-center text-gray-500 sm:text-center"> +55 (33) 3529-2700 </span>
 			</div>

@@ -1,5 +1,5 @@
 <script>
-	let { picture, description, link, buttonText = 'ACESSAR LIVRO COMPLETO' } = $props();
+	let { picture, description, link, buttonText } = $props();
 	let isHovered = $state(false);
 	const handleClick = () => {
 		window.open(link, '_blank');
